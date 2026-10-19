@@ -1,0 +1,147 @@
+(footprint "Mini360"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.001976 -3.002423 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e3ef752b-f23e-46ad-a095-bf4897f1a454")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mini360"
+		(at 0.001976 -1.502423 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f952f2e-08a7-46ab-81e1-ec1439ec3186")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0312679-efef-4f74-a76c-f55e56fbc4b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f16273c5-9b69-4f35-acf5-e9a45b33bcb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -8.498024 -5.502423)
+		(end 8.501976 5.497577)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4c8edfcb-9067-4830-89ef-b2b8574123db")
+	)
+	(fp_rect
+		(start -8.6 -5.6)
+		(end 8.6 5.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "30c9bb4a-2d81-42d0-8305-793265adb11c")
+	)
+	(fp_rect
+		(start -8.4 -5.4)
+		(end 8.4 5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "48264114-21e9-4c1f-8b3e-87e64b74d077")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.001976 -0.002423 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa3f0355-c1f5-40dd-85cd-c7d98db7984c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "IN+" thru_hole circle
+		(at -7.6 4.6)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ff89bf5-66f8-497b-b12f-6aee217ec9a7")
+	)
+	(pad "IN-" thru_hole circle
+		(at -7.6 -4.6)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1688633-d0fd-4a11-bcc0-b50953123901")
+	)
+	(pad "OUT+" thru_hole circle
+		(at 7.6 4.6)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53de37f9-60e6-4f3a-893d-31bdf37750ae")
+	)
+	(pad "OUT-" thru_hole circle
+		(at 7.6 -4.6)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32729715-d045-4ab4-adad-e641b49c9de8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/MINI360/MIni - 360.step"
+		(offset
+			(xyz 0 0 -16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
